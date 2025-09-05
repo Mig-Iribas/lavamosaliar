@@ -1,4 +1,4 @@
-# Proyecto lavamosaliar — Nivel 1
+# Proyecto la vamos a liar — Nivel 1
 
 En este primer nivel vamos a aprender lo más básico de Git y GitHub.  
 **Todos trabajaremos directamente en el mismo repositorio de GitHub, en la rama `main`.**
