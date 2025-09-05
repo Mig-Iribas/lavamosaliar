@@ -194,7 +194,7 @@ To github.com:USUARIO-DE-MIGUEL/lavamosaliar.git
 ---
 
 ## 🏁 Resultado final esperado
-- La carpeta `equipo/` contiene 13 archivos: uno por cada alumno.  
-- Cada archivo incluye una frase de presentación.  
-- Todos los cambios están guardados en la rama `main` del repositorio de Miguel.  
+- La carpeta `equipo/` contiene los archivos de todos los que lo hayan subido.  
+- Cada archivo incluye una frase.  
+- Todos los cambios están guardados en la rama `main` del repositorio lavamosaliar.  
 - No se han usado ramas en este nivel.
