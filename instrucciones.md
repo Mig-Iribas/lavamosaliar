@@ -179,7 +179,7 @@ Total 3 (delta 0), reused 0 (delta 0)
 To github.com:USUARIO-DE-MIGUEL/lavamosaliar.git
    9e8d7f6..1a2b3c4  main -> main
 ```
-**Si alguien subió antes que tú su archivo y tu push falla, debes actualizar a la ultima versión que haya en el repositorio**  
+**Si alguien subió antes que tú su archivo y tu push falla, debes actualizar a la ultima versión que haya en el repositorio y volver a hacer el push**  
    ```bash
    git pull --rebase origin main
    git push origin main
