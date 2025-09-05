@@ -7,7 +7,7 @@ En este primer nivel vamos a aprender lo más básico de Git y GitHub.
 
 ## 📘 Instrucciones
 
-- Cada uno añadirá un archivo con su nombre en la carpeta `equipo/`.  
+- Cada uno añadirá un archivo con su nombre en la carpeta `equipo/` desde el **terminal**.
 - Ese archivo debe contener una frase corta.
 - Todos trabajaremos directamente sobre la rama `main` del repositorio.  
 
