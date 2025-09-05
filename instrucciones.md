@@ -34,50 +34,25 @@ En este primer nivel vamos a aprender lo más básico de Git y GitHub.
 
 **Resultado esperado**:  
 La carpeta `equipo/` contendrá un archivo por cada uno de nosotros, cada cual con su frase.  
-Como todos trabajamos en archivos diferentes, no deberían aparecer conflictos.
+Como todos trabajamos en archivos diferentes, no deberían aparecer conflictos. Eso lo dejamos para el próximo nivel.
 
 ---
 
-## 💻 Comandos básicos que usaremos
+## 💻 Comandos básicos (lista breve)
 
-1. **Clonar un repositorio desde GitHub**
-    ```bash
-    git clone https://github.com/Mig-Iribas/lavamosaliar.git
-    ```
+- `git clone <URL>` — Copia el repositorio remoto a tu ordenador (solo la primera vez).
+- `git pull origin main` — Trae y combina los últimos cambios de `main` desde GitHub. Actualiza.
+- `git add equipo/tu_nombre.txt` — Pasa el archivo al área de preparación (staging) para el próximo commit.
+- `git commit -m "mensaje"` — Guarda en tu repositorio local los cambios que están en staging.
+- `git push origin main` — Sube tus commits locales a GitHub en la rama `main`.
+- `git pull --rebase origin main` — Actualiza tu rama reordenando tus commits encima de los nuevos (útil si el push falla).
 
-2. **Traer lo último de un repositorio**  
-   (asegurarse de estar al día con los cambios de los demás):  
-   ```
-   git pull origin main
-   ```
-
-3. **Crear el archivo personal** (ejemplo para Laura):  
-   ```
-   nano equipo/laura.txt
-   ```
-   *(escribes tu frase, guardas y cierras)*
-
-4. **Preparar el archivo para guardarlo en Git**  
-   ```
-   git add equipo/laura.txt
-   ```
-
-5. **Guardar el cambio en tu copia local**  
-   ```
-   git commit -m "añade archivo de Laura"
-   ```
-
-6. **Subir tu cambio al repositorio de Miguel en GitHub**  
-   ```
-   git push origin main
-   ```
-
-7. **Si alguien subió antes que tú y tu push falla**  
-   Primero actualiza y luego vuelve a subir:  
-   ```
-   git pull --rebase origin main
-   git push origin main
-   ```
+### Opcionales útiles
+- `git status` — Muestra el estado: qué rama, qué falta por añadir/confirmar.
+- `git log --oneline` — Historial de commits en formato corto.
+- `git show` — Detalles del último commit (o de uno concreto con `git show <id>`).
+- `git restore --staged <archivo>` — Quita un archivo del staging (deshacer `git add`).
+- `git rm <archivo>` — Borra un archivo y deja listo el borrado para el próximo commit.
 
 ---
 
