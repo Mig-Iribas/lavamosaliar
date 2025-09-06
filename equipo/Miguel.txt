@@ -1,1 +1,4 @@
-Hola, soy Miguel y me aburría esta mañana y también por la tarde.
+Hola, soy Miguel y me aburría esta mañana y pensé que estaría bien
+enredar con el terminal, git y github.
+Y así surgió el repositorio lavamosaliar, dónde os he dado permisos
+para que podaís enredar también.
