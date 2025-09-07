@@ -105,6 +105,12 @@ echo "Hola, soy Laura y esta es mi aportación." > equipo/laura.txt
 
 (Sin salida, simplemente se crea el archivo).
 
+Tambié podemos hacer:
+```bash
+code .
+```
+Y crear los arhivos en Visual Studio Code
+
 ---
 
 ### Paso 5. Verificar el estado
