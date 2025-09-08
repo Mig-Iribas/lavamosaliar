@@ -53,6 +53,7 @@ Como todos trabajamos en archivos diferentes, no deberían aparecer conflictos. 
 - `git show` — Detalles del último commit (o de uno concreto con `git show <id>`).
 - `git restore --staged <archivo>` — Quita un archivo del staging (deshacer `git add`).
 - `git rm <archivo>` — Borra un archivo y deja listo el borrado para el próximo commit.
+- `git fetch`— Actualiza la "foto" con los archivos del repositorio en ese momento.
 
 ---
 
@@ -103,6 +104,12 @@ echo "Hola, soy Laura y esta es mi aportación." > equipo/laura.txt
 ```
 
 (Sin salida, simplemente se crea el archivo).
+
+Tambié podemos hacer:
+```bash
+code .
+```
+Y crear los arhivos en Visual Studio Code
 
 ---
 
