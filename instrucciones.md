@@ -95,8 +95,10 @@ git pull origin main
 Already up to date.
 ```
 
+Esta parte no quiero que salga
 
 ---
+
 
 ### Paso 4. Crear un archivo con tu nombre en la carpeta `equipo/`
 ```bash
@@ -113,6 +115,7 @@ code .
 Y crear los arhivos en Visual Studio Code
 
 ---
+Pero esta sí
 
 ### Paso 5. Verificar el estado
 ```bash
