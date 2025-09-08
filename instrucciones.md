@@ -94,6 +94,7 @@ git pull origin main
 ```
 Already up to date.
 ```
+esto es una prueba
 
 ---
 
@@ -111,6 +112,7 @@ code .
 ```
 Y crear los arhivos en Visual Studio Code
 
+Y aqui continua la prueba
 ---
 
 ### Paso 5. Verificar el estado
