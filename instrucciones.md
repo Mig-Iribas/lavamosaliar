@@ -95,7 +95,6 @@ git pull origin main
 Already up to date.
 ```
 
-Esta parte no quiero que salga
 
 ---
 
@@ -115,7 +114,7 @@ code .
 Y crear los arhivos en Visual Studio Code
 
 ---
-Pero esta sí
+
 
 ### Paso 5. Verificar el estado
 ```bash
